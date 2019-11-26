@@ -1,0 +1,47 @@
+# Maizzle Litmus Starter
+
+The [Slate](https://litmus.com/resources/free-responsive-email-templates) hybrid email templates by [Litmus](https://litmus.com), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
+
+## Templates
+
+All Slate templates are included:
+
+- Newsletter
+- Product Update
+- Receipt
+- Simple Announcement
+- Stationery
+
+## Getting Started
+
+Install the Maizzle CLI:
+
+```sh
+npm install -g @maizzle/cli
+```
+
+Scaffold a new project with this starter:
+
+```sh
+maizzle new https://github.com/maizzle/starter-litmus.git && cd starter-litmus
+```
+
+Develop locally:
+
+```sh
+maizzle serve
+```
+
+Build for staging (readable markup):
+
+```sh
+maizzle build staging
+```
+
+Build for production (minified code):
+
+```sh
+maizzle build production
+```
+
+Maizzle documentation is available at https://maizzle.com
