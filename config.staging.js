@@ -13,6 +13,11 @@ module.exports = {
     removeUnusedCSS: {
       enabled: true,
     },
+
+    replaceStrings: {
+      '\\n\\n': '\n',
+      '\\n<!-->': '<!-->',
+    },
   },
 
   prettify: {
