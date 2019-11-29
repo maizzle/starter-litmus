@@ -23,6 +23,21 @@ module.exports = {
         lightest: '#F5F7FA',
       },
 
+      ceej: {
+        body: '#f4f4f4',
+        black: '#111111',
+        blue: '#539be2',
+        'blue-light': '#B3E5FC',
+        red: '#ec6d64',
+        'red-light': '#FFE0DE',
+        purple: '#7c72dc',
+        'purple-light': '#C6C2ED',
+        orange: '#FFA73B',
+        'orange-light': '#FFECD1',
+        green: '#66BB7F',
+        'green-light': '#C0EDE0',
+      },
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -161,7 +176,9 @@ module.exports = {
       '36': '36px',
       '40': '40px',
       '45': '45px',
+      '48': '48px',
       '50': '50px',
+      '60': '60px',
       '70': '70px',
       '115': '115px',
       '150': '150px',
@@ -170,6 +187,7 @@ module.exports = {
       '350': '350px',
       '385': '385px',
       '500': '500px',
+      '600': '600px',
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {
@@ -244,6 +262,12 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
+      lato: [
+        'Lato',
+        '-apple-system',
+        '"Segoe UI"',
+        'sans-serif',
+      ],
       sans: [
         '-apple-system',
         '"Segoe UI"',
@@ -303,6 +327,7 @@ module.exports = {
       'tight': '-1px',
       'normal': '0',
       'wide': '1px',
+      'loose': '4px',
     },
     lineHeight: theme => ({
       ...theme('spacing'),

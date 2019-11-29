@@ -1,16 +1,32 @@
 # Maizzle Litmus Starter
 
-The [Slate](https://litmus.com/resources/free-responsive-email-templates) hybrid email templates by [Litmus](https://litmus.com), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
+The free email templates by [Litmus](https://litmus.com), built with [Tailwind CSS](https://tailwindcss.com) in [Maizzle](https://maizzle.com).
 
 ## Templates
 
-All Slate templates are included:
+The following templates are included:
+
+### Slate
 
 - Newsletter
 - Product Update
 - Receipt
 - Simple Announcement
 - Stationery
+
+### Ceej
+
+- Account Update
+- Expired Card
+- Password Reset
+- New Account
+- Closed Account
+
+Each Ceej template comes in 3 versions:
+
+- HTML
+- MailChimp
+- Campaign Monitor
 
 ## Getting Started
 

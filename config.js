@@ -99,7 +99,7 @@ module.exports = {
       'vertical-align': 'valign',
     },
     applySizeAttribute: {
-      width: [],
+      width: ['IMG'],
       height: [],
     },
     excludedProperties: null,
