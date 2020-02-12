@@ -1,7 +1,7 @@
 module.exports = {
   build: {
     destination: {
-      path: 'dist',
+      path: 'dist/minified',
     },
   },
 
@@ -12,15 +12,15 @@ module.exports = {
   cleanup: {
     removeUnusedCSS: {
       enabled: true,
-    },
-
-    replaceStrings: {
-      '\\n\\n': '\n',
-      '\\n<!-->': '<!-->',
+      uglify: true,
     },
   },
 
-  prettify: {
+  minify: {
     enabled: true,
+    minifyCSS: true,
+    maxLineLength: 500,
+    collapseWhitespace: true,
+    processConditionalComments: true,
   },
 }
