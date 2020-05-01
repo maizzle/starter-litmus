@@ -1,0 +1,65 @@
+---
+title: "A Responsive Email Template"
+preheader: "Entice the open with some amazing preheader text. Use a little mystery and get those subscribers to read through..."
+---
+
+<extends src="src/layouts/master.html">
+  <block name="template">
+    <table class="w-full all:font-sans">
+      <tr>
+        <td align="center" class="p-15 sm:py-50 sm:px-15 bg-white">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td align="center" valign="top" width="500">
+                  <![endif]-->
+                  <table class="w-full max-w-500 sm:max-w-full">
+                    <tr>
+                      <td>
+                        <table class="w-full">
+                          <tr>
+                            <td>
+                              <!-- COPY -->
+                              <table class="w-full">
+                                <tr>
+                                  <td align="left" class="pt-20 sm:p-15">
+                                    <p class="m-0 text-base leading-25 text-slate-dark">
+                                      Hey Customer,
+                                      <br><br>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est.
+                                      <br><br>
+                                      Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum. Lorem ipsum dolor sit amet,
+                                      consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est.
+                                      <br><br>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est.
+                                      Aenean at mollis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat,
+                                      ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum. Lorem ipsum dolor sit amet,
+                                      consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo,
+                                      a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                      <br><br>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est.
+                                      <br><br>
+                                      Cheers,
+                                      <br>
+                                      The Team
+                                    </p>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <component src="src/components/slate/footer.html"></component>
+    </table>
+  </block>
+</extends>

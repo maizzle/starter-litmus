@@ -1,0 +1,297 @@
+---
+title: "A Responsive Email Template"
+preheader: "Entice the open with some amazing preheader text. Use a little mystery and get those subscribers to read through..."
+header:
+  background: bg-white
+  logo:
+    img: slate/announcement/logo-2.png
+---
+
+<extends src="src/layouts/master.html">
+  <block name="template">
+    <table class="w-full all:font-sans">
+      <component src="src/components/slate/header.html"></component>
+      <tr>
+        <td align="center" class="p-15 bg-white">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td align="center" valign="top" width="500">
+                  <![endif]-->
+                  <table class="w-full max-w-500 sm:max-w-full">
+                    <tr>
+                      <td>
+                        <!-- COPY -->
+                        <table class="w-full">
+                          <tr>
+                            <td align="center" class="pt-30 sm:p-15 sm:text-center">
+                              <h1 class="m-0 text-32px font-normal text-slate-darkest">Your order is on its way!</h1>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" class="pt-20 sm:p-15 sm:text-center">
+                              <p class="m-0 text-base leading-25 text-slate-dark">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 15px;" class="padding">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td align="center" valign="top" width="500">
+                  <![endif]-->
+                  <table class="w-full max-w-500 sm:max-w-full">
+                    <tr>
+                      <td class="pt-10" style="border-top: 1px dashed #aaaaaa;">
+                        <!-- TWO COLUMNS -->
+                        <table class="w-full">
+                          <tr>
+                            <td class="align-top">
+                              <!-- LEFT COLUMN -->
+                              <table align="left" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="left" class="text-base text-slate-darkest">Purchased Item (1)</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- RIGHT COLUMN -->
+                              <table align="right" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="right" class="text-base text-slate-darkest">$XX.XX</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <!-- TWO COLUMNS -->
+                        <table class="w-full">
+                          <tr>
+                            <td class="align-top">
+                              <!-- LEFT COLUMN -->
+                              <table align="left" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="left" class="text-base text-slate-darkest">Shipping + Handling</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- RIGHT COLUMN -->
+                              <table align="right" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="right" class="text-base text-slate-darkest">$X.XX</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <!-- TWO COLUMNS -->
+                        <table class="w-full">
+                          <tr>
+                            <td class="align-top">
+                              <!-- LEFT COLUMN -->
+                              <table align="left" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="left" class="text-base text-slate-darkest">Sales Tax</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- RIGHT COLUMN -->
+                              <table align="right" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="right" class="text-base text-slate-darkest">$X.XX</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pt-10" style="border-top: 1px solid #eaeaea; border-bottom: 1px dashed #aaaaaa;">
+                        <!-- TWO COLUMNS -->
+                        <table class="w-full">
+                          <tr>
+                            <td class="align-top">
+                              <!-- LEFT COLUMN -->
+                              <table align="left" class="w-47pc">
+                                <tr>
+                                  <td class="pb-10">
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="left" class="text-base font-bold text-slate-darkest">Total</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!-- RIGHT COLUMN -->
+                              <table align="right" class="w-47pc">
+                                <tr>
+                                  <td>
+                                    <table class="w-full">
+                                      <tr>
+                                        <td align="right" class="text-base font-bold text-green-500">$XX.XX</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" class="p-15 bg-white">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td align="center" valign="top" width="500">
+                  <![endif]-->
+                  <table class="w-full max-w-500 sm:max-w-full">
+                    <tr>
+                      <td>
+                        <table class="w-full">
+                          <tr>
+                            <td>
+                              <!-- COPY -->
+                              <table class="w-full">
+                                <tr>
+                                  <td align="left" class="sm:p-15 sm:text-center">
+                                    <p class="m-0 text-sm italic leading-18 text-slate-light">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                    </p>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td align="center" class="p-15 bg-white">
+          <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td align="center" valign="top" width="500">
+                  <![endif]-->
+                  <table class="w-full max-w-500 sm:max-w-full">
+                    <tr>
+                      <td>
+                        <table class="w-full">
+                          <tr>
+                            <!-- COPY -->
+                            <td align="center" class="pt-30 sm:p-15 sm:text-center">
+                              <h2 class="m-0 text-32px font-normal text-slate-darkest">How did we do?</h2>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" class="pt-20 sm:p-15 sm:text-center">
+                              <p class="m-0 text-base leading-25 text-slate-dark">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center">
+                              <!-- BULLETPROOF BUTTON -->
+                              <table class="w-full">
+                                <tr>
+                                  <td align="center" class="pt-25 sm:p-15">
+                                    <table class="sm:w-full sm:mx-auto">
+                                      <tr>
+                                        <td align="center" class="rounded-sm bg-blue-700 hover:bg-blue-600">
+                                          <a href="https://litmus.com" target="_blank" class="inline-block sm:block py-15 px-25 sm:px-15 rounded-sm sm:border-0 text-base no-underline text-white" style="border: 1px solid #256F9C;">Let Us Know</a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <component src="src/components/slate/footer.html"></component>
+    </table>
+  </block>
+</extends>

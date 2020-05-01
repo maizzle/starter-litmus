@@ -8,7 +8,7 @@ body {
 
 img {
   border: 0;
-  @apply leading-full align-middle;
+  @apply max-w-full leading-full align-middle;
 }
 
 a[x-apple-data-detectors] {
@@ -17,17 +17,5 @@ a[x-apple-data-detectors] {
   font-family: inherit !important;
   font-weight: inherit !important;
   line-height: inherit !important;
-}
-
-@screen all {
-  img {
-    @apply max-w-full;
-  }
-}
-
-@screen sm {
-  u ~ div .wrapper {
-    @apply min-w-screen;
-  }
 }
 /*! purgecss end ignore */

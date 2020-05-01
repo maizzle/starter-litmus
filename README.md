@@ -39,7 +39,7 @@ npm install -g @maizzle/cli
 Scaffold a new project with this starter:
 
 ```sh
-maizzle new https://github.com/maizzle/starter-litmus.git && cd starter-litmus
+maizzle new maizzle/starter-litmus && cd starter-litmus
 ```
 
 Develop locally:
@@ -48,13 +48,7 @@ Develop locally:
 maizzle serve
 ```
 
-Build for staging (readable markup):
-
-```sh
-maizzle build staging
-```
-
-Build for production (minified code):
+Build for production:
 
 ```sh
 maizzle build production
