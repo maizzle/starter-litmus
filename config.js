@@ -10,6 +10,7 @@
 */
 
 module.exports = {
+  baseImageURL: 'https://res.cloudinary.com/maizzle/image/upload/v1574765449/litmus/',
   build: {
     tailwind: {
       css: 'src/assets/css/main.css',
@@ -21,7 +22,6 @@ module.exports = {
       },
     },
   },
-  baseImageURL: 'https://res.cloudinary.com/maizzle/image/upload/v1574765449/litmus/',
   inlineCSS: {
     applySizeAttribute: {
       width: ['IMG'],
