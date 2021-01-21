@@ -6,6 +6,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        inherit: 'inherit',
         slate: {
           darkest: '#333333',
           darker: '#444444',
