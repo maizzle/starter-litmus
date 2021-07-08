@@ -12,9 +12,6 @@
 module.exports = {
   baseImageURL: 'https://res.cloudinary.com/maizzle/image/upload/v1574765449/litmus/',
   build: {
-    tailwind: {
-      css: 'src/assets/css/main.css',
-    },
     templates: {
       source: 'src/templates',
       destination: {
