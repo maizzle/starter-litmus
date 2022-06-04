@@ -17,9 +17,8 @@ module.exports = {
       },
     },
   },
-  inlineCSS: {
-    mergeLonghand: true,
-  },
   prettify: true,
+  inlineCSS: true,
   removeUnusedCSS: true,
+  shorthandInlineCSS: true,
 }

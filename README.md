@@ -32,26 +32,35 @@ Each Ceej template comes in 3 versions:
 
 Install the Maizzle CLI:
 
-```sh
+```
 npm install -g @maizzle/cli
 ```
 
 Scaffold a new project with this starter:
 
-```sh
-maizzle new maizzle/starter-litmus && cd starter-litmus
+```
+maizzle new maizzle/starter-litmus
 ```
 
-Develop locally:
+Alternatively, you may clone this starter directly:
 
-```sh
-maizzle serve
+```bash
+# remember to install dependencies with `npm install`
+npx degit maizzle/starter-netlify-identity
+```
+
+## Development
+
+Start a local development server:
+
+```
+npm run dev
 ```
 
 Build for production:
 
-```sh
-maizzle build production
+```
+npm run build
 ```
 
 Maizzle documentation is available at https://maizzle.com
