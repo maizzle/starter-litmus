@@ -10,7 +10,11 @@
 */
 
 module.exports = {
-  baseImageURL: 'https://res.cloudinary.com/maizzle/image/upload/v1574765449/litmus/',
+  baseURL: {
+    tags: {
+      img: 'https://res.cloudinary.com/maizzle/image/upload/v1574765449/litmus/',
+    }
+  },
   build: {
     templates: {
       source: 'src/templates',
